@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MGH coding assignment</title>
+</head>
+<body>
+	<script>
+		import React from 'react';
+		import REACTDOM from 'react-dom';
+		import * as serviceWorker from './serviceWorker';
+		import App from './App';
+
+		ReactDOM.render(<App />, document.getElementById('root'));
+
+		serviceWorker.unregister();
+	</script>
+</body>
+</html>
